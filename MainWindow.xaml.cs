@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,6 +30,10 @@ namespace Login_and_Regiser
         {
             if (e.LeftButton == MouseButtonState.Pressed)
                 DragMove();
+        }
+        void hyperlink_Click(object sender, RoutedEventArgs e)
+        {
+            Process.Start(@"C:\Firefox\Firefox\firefox.exe", "https://forum.new-sense.ru/register");
         }
     }
 }
