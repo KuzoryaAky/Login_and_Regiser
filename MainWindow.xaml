@@ -10,10 +10,11 @@
         AllowsTransparency="False" 
         WindowStyle="None" ResizeMode="NoResize"
         MouseDown="Window_MouseDown">
+    
         <Window.Background>
-            <ImageBrush ImageSource="img/bg.png"/>
+            <ImageBrush ImageSource="./img/bg.png"/>
         </Window.Background>
-
+        
 
     <Grid>
         <Grid>
