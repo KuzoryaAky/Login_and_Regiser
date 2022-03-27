@@ -12,7 +12,7 @@
         MouseDown="Window_MouseDown">
     
         <Window.Background>
-            <ImageBrush ImageSource="C:\WORK\C#\projects\Login_and_Regiser\img\bg.png"/>
+            <ImageBrush ImageSource="img/bg.png"/>
         </Window.Background>
         
 
