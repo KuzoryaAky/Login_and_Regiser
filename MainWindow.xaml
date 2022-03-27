@@ -10,10 +10,11 @@
         AllowsTransparency="False" 
         WindowStyle="None" ResizeMode="NoResize"
         MouseDown="Window_MouseDown">
+    
         <Window.Background>
-            <ImageBrush ImageSource="img/bg.png"/>
+            <ImageBrush ImageSource="C:\WORK\C#\projects\Login_and_Regiser\img\bg.png"/>
         </Window.Background>
-
+        
 
     <Grid>
         <Grid>
@@ -78,15 +79,8 @@
                              BorderThickness="0"
                              Width="250" 
                              Opacity="0.5"
-                             Margin="105,3"
-                             >
-                        
-
-
-                        <TextBox.Style>
-                            <Style/>
-                        </TextBox.Style>
-                    </TextBox>
+                             Margin="105,3" Panel.ZIndex="10"
+                             />
                 </StackPanel>
                     <Border Width="250" Height="2"
                             Background="Black"
@@ -117,7 +111,7 @@
                              Background="Transparent"
                              Width="250" 
                              Opacity="0.5"
-                             Margin="105,3"
+                             Margin="105,3" Panel.ZIndex="10"
                              />
                 </StackPanel>
                 <Border x:Name="___Без_имени_" Width="250" Height="2"
@@ -140,11 +134,12 @@
                 <Border Background="GhostWhite"
                         CornerRadius="10"
                         Opacity="0.2"
-                        Width="270" Height="20" Margin="0,-339,0,0"/>
+                        Width="270" Height="20" Margin="0,-339,0,0" Visibility="Visible" IsEnabled="False" ScrollViewer.VerticalScrollBarVisibility="Hidden" ScrollViewer.HorizontalScrollBarVisibility="Visible"/>
                 <Border Background="GhostWhite"
                         CornerRadius="10"
                         Opacity="0.2"
-                        Width="270" Height="20" Margin="0,-441,0,0"/>
+                        Width="270" Height="20" Margin="0,-443,0,0" Visibility="Visible" Panel.ZIndex="9"
+                        />
 
             </StackPanel>
         </Grid>
