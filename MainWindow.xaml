@@ -51,7 +51,7 @@
 
 
             <StackPanel Grid.Row="1" Margin="0,27.7,0,0">
-                <Border Background="GhostWhite"
+                <Border x:Name="BorderLogin" Background="GhostWhite"
                         CornerRadius="10"
                         Opacity="0.2"
                         Width="270" Height="20" 
@@ -61,7 +61,7 @@
                         ScrollViewer.VerticalScrollBarVisibility="Hidden"
                         ScrollViewer.HorizontalScrollBarVisibility="Visible"
                         />
-                <Border Background="GhostWhite"
+                <Border x:Name="BorderPass" Background="GhostWhite"
                         CornerRadius="10"
                         Opacity="0.2"
                         Width="270" Height="20" 
@@ -97,7 +97,7 @@
                              BorderThickness="0"
                              Width="250" 
                              Opacity="0.5"
-                             Margin="105,-70,105,54" Panel.ZIndex="10"
+                             Margin="105,-70,105,54" Panel.ZIndex="10" PreviewMouseLeftButtonDown="TB_login_PreviewMouseLeftButtonDown"
                              />
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
@@ -125,7 +125,7 @@
                              Background="Transparent"
                              Width="250" 
                              Opacity="0.5"
-                             Margin="105,-25,105,7" Panel.ZIndex="10"
+                             Margin="105,-25,105,7" Panel.ZIndex="10" PreviewMouseLeftButtonDown="PB_password_PreviewMouseLeftButtonDown"
                              />
                 </StackPanel>
                 <CheckBox Content="Запомнить меня"
@@ -134,15 +134,22 @@
                           Margin="100,7,102,10" FontFamily="Times New Roman" FontWeight="Normal"/>
                 <Button Content="Войти"
                         Width="257" Height="25"
-                        Background="GhostWhite"
+                        Background="GhostWhite" Click="Button_Click"
                         />
                 
-                <TextBlock Margin="0,70,0,0"
+                <TextBlock x:Name="Registrtion" Margin="-183,70,0,0"
                            Width="70"
                            Background="Transparent"
                            HorizontalAlignment="Center"
                            >
-                    <Hyperlink Click="hyperlink_Click">Регистрация</Hyperlink>
+                    <Hyperlink Click="Reistration_Click">Регистрация</Hyperlink>
+                </TextBlock>
+                <TextBlock x:Name="ForgotPass" Margin="161,-16,0,0"
+                           Width="90"
+                           Background="Transparent"
+                           HorizontalAlignment="Center" Height="16"
+                           >
+                    <Hyperlink Click="ForgotPass_Click">Забыли пароль?</Hyperlink>
                 </TextBlock>
 
             </StackPanel>
