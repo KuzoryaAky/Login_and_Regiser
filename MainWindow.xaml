@@ -128,10 +128,10 @@
                              Margin="105,-25,105,7" Panel.ZIndex="10" PreviewMouseLeftButtonDown="PB_password_PreviewMouseLeftButtonDown"
                              />
                 </StackPanel>
-                <CheckBox Content="Запомнить меня"
+                <CheckBox x:Name="CB_remember" Content="Запомнить меня"
                           Background="Transparent"
                           Foreground="White"
-                          Margin="100,7,102,10" FontFamily="Times New Roman" FontWeight="Normal"/>
+                          Margin="100,7,102,10" FontFamily="Times New Roman" FontWeight="Normal" ClickMode="Release"/>
                 <Button Content="Войти"
                         Width="257" Height="25"
                         Background="GhostWhite" Click="Button_Click"

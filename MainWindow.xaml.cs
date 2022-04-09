@@ -1,7 +1,9 @@
-﻿using System.Diagnostics;
+﻿using Login_and_Regiser.PostgreSQLConnction;
+using System.Diagnostics;
 using System.Windows;
 using System.Windows.Input;
 using System.Windows.Media;
+using Login_and_Regiser.UsersFolder;
 
 namespace Login_and_Regiser
 {
@@ -36,24 +38,51 @@ namespace Login_and_Regiser
             if (login.Length < 5)
             {
                 BorderLogin.Background = Brushes.DarkRed;
+                BorderPass.Background = Brushes.GhostWhite;
             }
+            
             else if (pass.Length < 5)
             {
                 BorderPass.Background = Brushes.DarkRed;
                 BorderLogin.Background = Brushes.GhostWhite;
             }
+
             else
             {
+                User user = new User()
+                {
+                    Name = login,
+                    Password = pass
+                };
+
+                Users.users.Add(user);
+
+
                 TB_login.ToolTip = "";
                 BorderLogin.Background = Brushes.GhostWhite;
                 PB_password.ToolTip = "";
                 BorderPass.Background = Brushes.GhostWhite;
 
-                MessageBox.Show("Ok");
+                CB_remember_Checked();
+
+                MessageBox.Show("LogIn");
             }
 
         }
         private void TB_login_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e) => TB_login.Text = "";
         private void PB_password_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e) => PB_password.Password = ""; 
+        private void CB_remember_Checked()
+        {
+            if (CB_remember.IsChecked == true)
+            {
+                using (ApplicationContext db = new())
+                {
+                    foreach (User u in Users.users)
+                        db.users.Add(u);
+
+                    db.SaveChanges();
+                }
+            }
+        }
     }
 }
