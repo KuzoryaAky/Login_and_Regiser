@@ -4,6 +4,9 @@ using System.Windows;
 using System.Windows.Input;
 using System.Windows.Media;
 using Login_and_Regiser.UsersFolder;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Collections.Generic;
 
 namespace Login_and_Regiser
 {
@@ -30,17 +33,34 @@ namespace Login_and_Regiser
         {
             Process.Start(@"C:\Firefox\Firefox\firefox.exe", "https://forum.new-sense.ru/lostpassword/");
         }
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private async void Button_Click(object sender, RoutedEventArgs e)
         {
-            string login = TB_login.Text.Trim();
-            string pass = PB_password.Password.Trim();
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                var users = await Task.Run(() => LoadUsersData());
+                foreach (var user in users)
+                    if (user.Name.Equals(TB_login.Text) && user.Password.Equals(PB_password.Password))
+                        MessageBox.Show("Вы вошли");
+            }
+            
+            SaveLoginPassInDB(TB_login.Text, PB_password.Password);
+        }
+        private List<User> LoadUsersData()
+        {
+            using (ApplicationContext db = new ApplicationContext())
+                return db.users.ToList();
+        }
+        private void SaveLoginPassInDB(string log, string pas)
+        {
+            string login = log.Trim();
+            string pass = pas.Trim();
 
             if (login.Length < 5)
             {
                 BorderLogin.Background = Brushes.DarkRed;
                 BorderPass.Background = Brushes.GhostWhite;
             }
-            
+
             else if (pass.Length < 5)
             {
                 BorderPass.Background = Brushes.DarkRed;
@@ -65,9 +85,8 @@ namespace Login_and_Regiser
 
                 CB_remember_Checked();
 
-                MessageBox.Show("LogIn");
+                MessageBox.Show("LogSave");
             }
-
         }
         private void TB_login_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e) => TB_login.Text = "";
         private void PB_password_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e) => PB_password.Password = ""; 
