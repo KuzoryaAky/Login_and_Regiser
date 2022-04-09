@@ -10,11 +10,11 @@
         AllowsTransparency="False" 
         WindowStyle="None" ResizeMode="NoResize"
         MouseDown="Window_MouseDown">
-    
-        <Window.Background>
-        <ImageBrush ImageSource="C:\WORK\C#\not a commercial project\Login_and_Regiser\img\bg.png"/>
-        </Window.Background>
-        
+
+    <Window.Background>
+        <ImageBrush ImageSource="https://cdn.discordapp.com/attachments/956177122358099988/957511996234956830/bg.png"/>
+    </Window.Background>
+
 
     <Grid>
         <Grid>
@@ -46,7 +46,7 @@
                         Margin="-233,0,0,0"
                         Background="LightSkyBlue"
                         />
-                
+
             </StackPanel>
 
 
@@ -82,7 +82,7 @@
                              Width="250" 
                              Margin="101,-89,105,75" IsEnabled="False"
                              />
-                    
+
 
 
                 </StackPanel>
@@ -136,7 +136,7 @@
                         Width="257" Height="25"
                         Background="GhostWhite" Click="Button_Click"
                         />
-                
+
                 <TextBlock x:Name="Registrtion" Margin="-183,70,0,0"
                            Width="70"
                            Background="Transparent"
