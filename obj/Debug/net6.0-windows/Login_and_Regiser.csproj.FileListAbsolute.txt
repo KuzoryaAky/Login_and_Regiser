@@ -1,0 +1,45 @@
+C:\WORK\C#\projects\Login_and_Regiser\bin\Debug\net6.0-windows\Login_and_Regiser.exe
+C:\WORK\C#\projects\Login_and_Regiser\bin\Debug\net6.0-windows\Login_and_Regiser.deps.json
+C:\WORK\C#\projects\Login_and_Regiser\bin\Debug\net6.0-windows\Login_and_Regiser.runtimeconfig.json
+C:\WORK\C#\projects\Login_and_Regiser\bin\Debug\net6.0-windows\Login_and_Regiser.dll
+C:\WORK\C#\projects\Login_and_Regiser\bin\Debug\net6.0-windows\Login_and_Regiser.pdb
+C:\WORK\C#\projects\Login_and_Regiser\obj\Debug\net6.0-windows\Login_and_Regiser.csproj.AssemblyReference.cache
+C:\WORK\C#\projects\Login_and_Regiser\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\WORK\C#\projects\Login_and_Regiser\obj\Debug\net6.0-windows\App.g.cs
+C:\WORK\C#\projects\Login_and_Regiser\obj\Debug\net6.0-windows\Login_and_Regiser_MarkupCompile.cache
+C:\WORK\C#\projects\Login_and_Regiser\obj\Debug\net6.0-windows\Login_and_Regiser_MarkupCompile.lref
+C:\WORK\C#\projects\Login_and_Regiser\obj\Debug\net6.0-windows\MainWindow.baml
+C:\WORK\C#\projects\Login_and_Regiser\obj\Debug\net6.0-windows\Login_and_Regiser.g.resources
+C:\WORK\C#\projects\Login_and_Regiser\obj\Debug\net6.0-windows\Login_and_Regiser.GeneratedMSBuildEditorConfig.editorconfig
+C:\WORK\C#\projects\Login_and_Regiser\obj\Debug\net6.0-windows\Login_and_Regiser.AssemblyInfoInputs.cache
+C:\WORK\C#\projects\Login_and_Regiser\obj\Debug\net6.0-windows\Login_and_Regiser.AssemblyInfo.cs
+C:\WORK\C#\projects\Login_and_Regiser\obj\Debug\net6.0-windows\Login_and_Regiser.csproj.CoreCompileInputs.cache
+C:\WORK\C#\projects\Login_and_Regiser\obj\Debug\net6.0-windows\Login_and_Regiser.dll
+C:\WORK\C#\projects\Login_and_Regiser\obj\Debug\net6.0-windows\refint\Login_and_Regiser.dll
+C:\WORK\C#\projects\Login_and_Regiser\obj\Debug\net6.0-windows\Login_and_Regiser.pdb
+C:\WORK\C#\projects\Login_and_Regiser\obj\Debug\net6.0-windows\Login_and_Regiser.genruntimeconfig.cache
+C:\WORK\C#\projects\Login_and_Regiser\obj\Debug\net6.0-windows\ref\Login_and_Regiser.dll
+C:\WORK\C#\not a commercial project\Login_and_Regiser\bin\Debug\net6.0-windows\Login_and_Regiser.exe
+C:\WORK\C#\not a commercial project\Login_and_Regiser\bin\Debug\net6.0-windows\Login_and_Regiser.deps.json
+C:\WORK\C#\not a commercial project\Login_and_Regiser\bin\Debug\net6.0-windows\Login_and_Regiser.runtimeconfig.json
+C:\WORK\C#\not a commercial project\Login_and_Regiser\bin\Debug\net6.0-windows\Login_and_Regiser.dll
+C:\WORK\C#\not a commercial project\Login_and_Regiser\bin\Debug\net6.0-windows\Login_and_Regiser.pdb
+C:\WORK\C#\not a commercial project\Login_and_Regiser\obj\Debug\net6.0-windows\Login_and_Regiser.csproj.AssemblyReference.cache
+C:\WORK\C#\not a commercial project\Login_and_Regiser\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\WORK\C#\not a commercial project\Login_and_Regiser\obj\Debug\net6.0-windows\App.g.cs
+C:\WORK\C#\not a commercial project\Login_and_Regiser\obj\Debug\net6.0-windows\Login_and_Regiser_MarkupCompile.cache
+C:\WORK\C#\not a commercial project\Login_and_Regiser\obj\Debug\net6.0-windows\Login_and_Regiser_MarkupCompile.lref
+C:\WORK\C#\not a commercial project\Login_and_Regiser\obj\Debug\net6.0-windows\MainWindow.baml
+C:\WORK\C#\not a commercial project\Login_and_Regiser\obj\Debug\net6.0-windows\Login_and_Regiser.g.resources
+C:\WORK\C#\not a commercial project\Login_and_Regiser\obj\Debug\net6.0-windows\Login_and_Regiser.GeneratedMSBuildEditorConfig.editorconfig
+C:\WORK\C#\not a commercial project\Login_and_Regiser\obj\Debug\net6.0-windows\Login_and_Regiser.AssemblyInfoInputs.cache
+C:\WORK\C#\not a commercial project\Login_and_Regiser\obj\Debug\net6.0-windows\Login_and_Regiser.AssemblyInfo.cs
+C:\WORK\C#\not a commercial project\Login_and_Regiser\obj\Debug\net6.0-windows\Login_and_Regiser.csproj.CoreCompileInputs.cache
+C:\WORK\C#\not a commercial project\Login_and_Regiser\obj\Debug\net6.0-windows\Login_and_Regiser.dll
+C:\WORK\C#\not a commercial project\Login_and_Regiser\obj\Debug\net6.0-windows\refint\Login_and_Regiser.dll
+C:\WORK\C#\not a commercial project\Login_and_Regiser\obj\Debug\net6.0-windows\Login_and_Regiser.pdb
+C:\WORK\C#\not a commercial project\Login_and_Regiser\obj\Debug\net6.0-windows\Login_and_Regiser.genruntimeconfig.cache
+C:\WORK\C#\not a commercial project\Login_and_Regiser\obj\Debug\net6.0-windows\ref\Login_and_Regiser.dll
+C:\WORK\C#\not a commercial project\Login_and_Regiser\bin\Debug\net6.0-windows\Google.Apis.Core.dll
+C:\WORK\C#\not a commercial project\Login_and_Regiser\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\WORK\C#\not a commercial project\Login_and_Regiser\obj\Debug\net6.0-windows\Login_and_Regiser.csproj.CopyComplete

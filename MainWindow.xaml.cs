@@ -28,7 +28,6 @@ namespace Login_and_Regiser
         {
             Process.Start(@"C:\Firefox\Firefox\firefox.exe", "https://forum.new-sense.ru/lostpassword/");
         }
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             string login = TB_login.Text.Trim();
@@ -54,8 +53,7 @@ namespace Login_and_Regiser
             }
 
         }
-
         private void TB_login_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e) => TB_login.Text = "";
-        private void PB_password_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e) => PB_password.Password = "";
+        private void PB_password_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e) => PB_password.Password = ""; 
     }
 }
